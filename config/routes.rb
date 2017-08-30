@@ -11,4 +11,6 @@ get '/kitten' => 'pages#kitten'
 
 get '/kittens'=>'pages#kittens'
 get '/kittens/:size' => 'pages#kittens'
+
+get'/secrets/:magic_word' => 'pages#secrets'
 end

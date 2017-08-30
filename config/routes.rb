@@ -5,4 +5,7 @@ get '/' => 'pages#welcome'
 get'/about' => 'pages#about' #(first routing method written)
 get '/contest' => 'pages#contest' #second routing method => connects contest.html
 get '/contests' => 'pages#contest'
+
+get '/kitten/:size' => 'pages#kitten'
+get '/kitten' => 'pages#kitten'
 end

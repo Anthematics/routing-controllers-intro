@@ -8,4 +8,7 @@ get '/contests' => 'pages#contest'
 
 get '/kitten/:size' => 'pages#kitten'
 get '/kitten' => 'pages#kitten'
+
+get '/kittens'=>'pages#kittens'
+get '/kittens/:size' => 'pages#kittens'
 end
